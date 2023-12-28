@@ -1,1 +1,10 @@
-This is the architect sample file
+Manage Multiple stage in Terraform
+
+terraform workspace new dev
+
+
+terraform workspace new prod
+
+terraform workspace list
+
+terraform workspace select dev
